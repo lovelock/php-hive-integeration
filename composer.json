@@ -1,9 +1,8 @@
 {
-  "name": "automattic/php-thrift-sql",
+  "name": "lovelock/php-hive-integeration",
   "type": "library",
   "description": "PHP Thrift Client for Impala and Hive Queries",
   "keywords": [ "Thrift", "SQL", "Hive", "Impala" ],
-  "homepage": "https://github.com/Automattic/php-thrift-sql",
   "license": "GPL-2.0",
   "authors": [
     {
@@ -11,21 +10,13 @@
       "email": "xyu@automattic.com",
       "homepage": "http://xyu.io",
       "role": "Developer"
+    },
+    {
+        "name": "Frost Wong",
+        "email": "frostwong@gmail.com"
     }
   ],
   "require": {
     "php": ">=5.3.0"
-  },
-  "autoload": {
-    "files": [ "ThriftSQL.phar" ]
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/Automattic/php-thrift-sql"
-    }
-  ],
-  "archive": {
-    "exclude": [ "/src", "/build.php" ]
   }
 }
